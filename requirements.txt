@@ -3,3 +3,5 @@ scipy
 matplotlib
 pillow
 gym
+vizdoom
+ppaquette-gym-doom
