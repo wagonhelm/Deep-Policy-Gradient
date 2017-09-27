@@ -26,7 +26,7 @@ There are three ways you can install these packages: by using Docker or by using
 
 3. Open your terminal and use `cd` to navigate into the directory of the repo on your machine
     ```bash
-    cd Visualizing-Convnets
+    cd Deep-Policy-Gradient
     ```
     
 4. To build the Dockerfile, enter
@@ -40,11 +40,11 @@ There are three ways you can install these packages: by using Docker or by using
 
 5. Run Docker from the Dockerfile you've just built
     ```bash
-    docker run -it -p 8888:8888 -p 6006:6006 cnn_dockerfile bash
+    docker run -it -p 8888:8888 dpg_dockerfile bash
     ```
     or
     ```bash
-    sudo docker run -it -p 8888:8888 -p 6006:6006 cnn_dockerfile bash
+    sudo docker run -it -p 8888:8888 dpg_dockerfile bash
     ```
     if you run into permission problems.
 
