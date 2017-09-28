@@ -68,7 +68,7 @@ There are two ways you can install these packages: by using Docker or by using n
 1. Install system requirements
 
 ```bash
-sudo apt-get install git cmake zlib1g-delibjpeg-dev libboost-all-dev libsdl2-dev wget unzip gitboostbuild-essential zlib1g-dev libsdl2-dev libjpeg-dev nasm tar libbz2-dev libgtk2.0-dev cmake libfluidsynth-dev libgme-dev libopenal-dev timidity libwildmidi-dev python3-pip
+sudo apt-get install git cmake zlib1g-delibjpeg-dev libboost-all-dev libsdl2-dev wget unzip gitboostbuild-essential zlib1g-dev libsdl2-dev libjpeg-dev nasm tar libbz2-dev libgtk2.0-dev cmake libfluidsynth-dev libgme-dev libopenal-dev timidity libwildmidi-dev python3-pip python3-dev python3-wheel
 ```
 2. Download and unzip [this entire repo from GitHub](https://github.com/wagonhelm/Deep-Policy-Gradient), either interactively, or by entering
 
@@ -81,6 +81,7 @@ git clone https://github.com/wagonhelm/Deep-Policy-Gradient.git
 ```bash
 cd Deep-Policy-Gradient
 pip3 install -r requirements.txt
+pip3 install tensorflow
 ```
 
 4. Launch Jupyter
