@@ -65,33 +65,33 @@ There are two ways you can install these packages: by using Docker or by using n
     
 ### Using Native Python 3
 
-Install system requirements
+1. Install system requirements
 
 ```bash
 sudo apt-get install git cmake zlib1g-delibjpeg-dev libboost-all-dev libsdl2-dev wget unzip gitboostbuild-essential zlib1g-dev libsdl2-dev libjpeg-dev nasm tar libbz2-dev libgtk2.0-dev cmake libfluidsynth-dev libgme-dev libopenal-dev timidity libwildmidi-dev python3-pip
 ```
-Clone Repository
+2. Download and unzip [this entire repo from GitHub](https://github.com/wagonhelm/Deep-Policy-Gradient), either interactively, or by entering
 
 ```bash
 git clone https://github.com/wagonhelm/Deep-Policy-Gradient.git
 ```
 
-Install Python Requirement
+3. Install Python Requirement
 
 ```bash
 cd Deep-Policy-Gradient
 pip3 install -r requirements.txt
 ```
 
-Launch Jupyter
+4. Launch Jupyter
 ```bash
 jupyter notebook
 ```
-
-Launch Tensorboard
+5. Launch Tensorboard
 ```bash
 tensorboard --logdir='/tmp/dpg'
 ```
+Once both jupyter and tensorboard are running, using your browser, navigate to the URLs shown in the terminal output if those don't work  try http://localhost:8888/ for Jupyter Notebook and http://localhost:6006/ for Tensorboard.
 
 
     
