@@ -2,7 +2,7 @@
 
 This repository has the code from my O'Reilly article 'Reinforcement Learning w/ TensorFlow' published on.
 
-This code contains tools for implementing the reinforcement learning algorthing REINFORCE TensorFlow and a convolutional Neural Network
+This code contains tools for implementing the reinforcement learning algorthing REINFORCE using TensorFlow and a convolutional Neural Network
 
 ## Required Packages
 * [TensorFlow v1.3](http://www.tensorflow.org/)
@@ -13,13 +13,13 @@ This code contains tools for implementing the reinforcement learning algorthing 
 * [VizDoom](https://github.com/mwydmuch/ViZDoom/blob/master/doc/Building.md)
 
 
-There are three ways you can install these packages: by using Docker or by using Native Python & Virtualenv.  If you use Docker you will not be able to render the environment.  
+There are two ways you can install these packages: by using Docker or by using native Python 3.5.  If you use Docker you will not be able to render the environment.  
 
 ### Using Docker
 
 1. Download and install [Docker](https://www.docker.com/).  If using Ubuntu 14.04/16.04 I wrote my own instructions for installing docker [here](https://github.com/wagonhelm/ML-Workstation-Installation-Guide#install-docker).
 
-2. Download and unzip [this entire repo from GitHub](https://github.com/wagonhelm/Visualizing-Convnets), either interactively, or by entering
+2. Download and unzip [this entire repo from GitHub](https://github.com/wagonhelm/Deep-Policy-Gradient), either interactively, or by entering
     ```bash
     git clone https://github.com/wagonhelm/Deep-Policy-Gradient.git
     ```
@@ -56,7 +56,7 @@ There are three ways you can install these packages: by using Docker or by using
     ```
     `Press CTL+B` then `C` to open a new tmux window, then
     
-    ```
+    ```bash
     tensorboard --logdir='/tmp/dpg'
     ```
     To switch windows `Press CTL+B` then `window #` 
@@ -67,12 +67,31 @@ There are three ways you can install these packages: by using Docker or by using
 
 Install system requirements
 
-    ```bash
-    git clone https://github.com/wagonhelm/Deep-Policy-Gradient.git
-    ```
+```bash
+sudo apt-get install git cmake zlib1g-delibjpeg-dev libboost-all-dev libsdl2-dev wget unzip gitboostbuild-essential zlib1g-dev libsdl2-dev libjpeg-dev nasm tar libbz2-dev libgtk2.0-dev cmake libfluidsynth-dev libgme-dev libopenal-dev timidity libwildmidi-dev python3-pip
+```
+Clone Repository
 
-    ```bash
-    sudo apt-get install cmake zlib1g-delibjpeg-dev libboost-all-dev libsdl2-dev wget unzip gitboostbuild-essential zlib1g-dev libsdl2-dev libjpeg-dev nasm tar libbz2-dev libgtk2.0-dev cmake libfluidsynth-dev libgme-dev libopenal-dev timidity libwildmidi-dev 
-    ```
+```bash
+git clone https://github.com/wagonhelm/Deep-Policy-Gradient.git
+```
+
+Install Python Requirement
+
+```bash
+cd Deep-Policy-Gradient
+pip3 install -r requirements.txt
+```
+
+Launch Jupyter
+```bash
+jupyter notebook
+```
+
+Launch Tensorboard
+```bash
+tensorboard --logdir='/tmp/dpg'
+```
+
 
     
