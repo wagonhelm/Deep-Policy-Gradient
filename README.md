@@ -48,14 +48,20 @@ There are three ways you can install these packages: by using Docker or by using
     ```
     if you run into permission problems.
 
-6. Launch Jupyter 
+6. Launch Jupyter and Tensorboard both by using tmux 
     ```bash
+    tmux
     
     jupyter notebook --allow-root
+    ```
+    `Press CTL+B` then `C` to open a new tmux window, then
     
     ```
+    tensorboard --logdir='/tmp/dpg'
+    ```
+    To switch windows `Press CTL+B` then `window #` 
  
-    Once jupyter is running, using your browser, navigate to the URLs shown in the terminal output if those don't work  try http://localhost:8888/ for Jupyter Notebook.
+    Once both jupyter and tensorboard are running, using your browser, navigate to the URLs shown in the terminal output if those don't work  try http://localhost:8888/ for Jupyter Notebook and http://localhost:6006/ for Tensorboard.
     
 ### Using Native Python 3
 
