@@ -81,7 +81,7 @@ git clone https://github.com/wagonhelm/Deep-Policy-Gradient.git
 ```bash
 cd Deep-Policy-Gradient
 pip3 install -r requirements.txt
-pip3 install tensorflow
+pip3 install tensorflow jupyter
 ```
 
 4. Launch Jupyter
