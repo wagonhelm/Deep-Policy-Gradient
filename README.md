@@ -9,6 +9,7 @@ This code contains tools for implementing the reinforcement learning algorthing 
 * [Jupyter](http://jupyter.org/)
 * [NumPy](http://www.numpy.org/)
 * [Scipy](https://www.scipy.org/)
+* [Skimage](http://scikit-image.org/)
 * [Matplotlib](http://matplotlib.org/)
 * [VizDoom](https://github.com/mwydmuch/ViZDoom/blob/master/doc/Building.md)
 
