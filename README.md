@@ -5,7 +5,7 @@ This repository has the code from my O'Reilly article 'Reinforcement Learning w/
 This code contains tools for implementing the reinforcement learning algorthing REINFORCE w/ baselines using TensorFlow and a convolutional Neural Network
 
 ## Required Packages
-* [TensorFlow v1.3](http://www.tensorflow.org/)
+* [TensorFlow v1.4](http://www.tensorflow.org/)
 * [Jupyter](http://jupyter.org/)
 * [NumPy](http://www.numpy.org/)
 * [Scipy](https://www.scipy.org/)
