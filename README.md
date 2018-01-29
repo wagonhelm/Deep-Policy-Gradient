@@ -1,5 +1,7 @@
 # Deep Policy Gradient Reinforcement Learning
 
+<img src="images/doomFinal.gif">
+
 This repository has the code from my O'Reilly article 'Reinforcement Learning w/ TensorFlow' published on.
 
 This code contains tools for implementing the reinforcement learning algorthing REINFORCE w/ baselines using TensorFlow and a convolutional Neural Network
