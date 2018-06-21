@@ -3,7 +3,7 @@ scipy
 scikit-image
 matplotlib
 pillow
-gym
+gym==0.8.0
 vizdoom
 jupyter
 ppaquette-gym-doom
